@@ -1,0 +1,385 @@
+2026-03-26T18:00:23.3638951Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-26T18:00:24.6037338Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-26T18:00:24.6066968Z Container start method called.
+2026-03-26T18:00:24.6107933Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.0.5:13209/appsvc/node:24-lts_20260115.4.tuxprod for neuroar., DetailsLevel: INFO
+2026-03-26T18:00:24.6109891Z Establishing network.
+2026-03-26T18:00:24.6126714Z Pulling image: appsvc/node:24-lts_20260115.4.tuxprod.
+2026-03-26T18:00:36.2531294Z Image appsvc/node:24-lts_20260115.4.tuxprod is pulled from registry 10.1.0.5:13209
+2026-03-26T18:00:36.2585154Z Container is starting.
+2026-03-26T18:00:36.2586789Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for neuroar., DetailsLevel: INFO
+2026-03-26T18:00:36.2588865Z Establishing user namespace if not established already.
+2026-03-26T18:00:36.2591883Z Establishing network if not established already.
+2026-03-26T18:00:36.2594676Z Mounting volumes.
+2026-03-26T18:00:36.2627401Z Nested mountpoint 
+2026-03-26T18:00:36.2744042Z Nested mountpoint volatile/logs
+2026-03-26T18:00:36.2869236Z Nested mountpoint 
+2026-03-26T18:00:36.3260698Z Nested mountpoint 
+2026-03-26T18:00:36.3293339Z Nested mountpoint 
+2026-03-26T18:00:36.3956234Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for neuroar. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-26T18:00:36.3966964Z Creating container.
+2026-03-26T18:00:36.3977041Z Creating pipes for streaming container io.
+2026-03-26T18:00:36.3983338Z Creating stdout named pipe at /podr/container/pipe/b7ac3d7bfd91_neuroar/stdout_8771beb8eef141f4b0dbcfaeec27ba0c.
+2026-03-26T18:00:36.3988516Z Successfully created stdout named pipe at: /podr/container/pipe/b7ac3d7bfd91_neuroar/stdout_8771beb8eef141f4b0dbcfaeec27ba0c.
+2026-03-26T18:00:36.4003913Z Opening named pipe /podr/container/pipe/b7ac3d7bfd91_neuroar/stdout_8771beb8eef141f4b0dbcfaeec27ba0c for reading in non-blocking mode.
+2026-03-26T18:00:36.4007312Z Successfully opened named pipe: /podr/container/pipe/b7ac3d7bfd91_neuroar/stdout_8771beb8eef141f4b0dbcfaeec27ba0c.
+2026-03-26T18:00:36.4017663Z Successfully removed non-blocking flag from /podr/container/pipe/b7ac3d7bfd91_neuroar/stdout_8771beb8eef141f4b0dbcfaeec27ba0c.
+2026-03-26T18:00:36.4029641Z Creating stderr named pipe at /podr/container/pipe/b7ac3d7bfd91_neuroar/stderr_cc2d4b101881407caaec54429d8e5631.
+2026-03-26T18:00:36.4032126Z Successfully created stderr named pipe at: /podr/container/pipe/b7ac3d7bfd91_neuroar/stderr_cc2d4b101881407caaec54429d8e5631.
+2026-03-26T18:00:36.4045393Z Opening named pipe /podr/container/pipe/b7ac3d7bfd91_neuroar/stderr_cc2d4b101881407caaec54429d8e5631 for reading in non-blocking mode.
+2026-03-26T18:00:36.4052809Z Successfully opened named pipe: /podr/container/pipe/b7ac3d7bfd91_neuroar/stderr_cc2d4b101881407caaec54429d8e5631.
+2026-03-26T18:00:36.4056945Z Successfully removed non-blocking flag from /podr/container/pipe/b7ac3d7bfd91_neuroar/stderr_cc2d4b101881407caaec54429d8e5631.
+2026-03-26T18:00:36.4076307Z Creating container with image: appsvc/node:24-lts_20260115.4.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:24-lts_20260115.4.tuxprod
+2026-03-26T18:00:36.9866660Z Starting container: b7ac3d7bfd91_neuroar.
+2026-03-26T18:00:37.0452079Z Starting watchers and probes.
+2026-03-26T18:00:37.0572446Z Starting metrics collection.
+2026-03-26T18:00:37.0620338Z Container is running.
+2026-03-26T18:00:37.0621813Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:00:37.1316380Z Container start method finished after 12524 ms.
+2026-03-26T18:00:37.1321624Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:00:37.1346933Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-26T18:00:44.1785835Z Site startup probe succeeded after 7.0289228 seconds.
+2026-03-26T18:00:44.2365838Z State: Starting, Action: WarmUpProbeSucceeded, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site startup probe succeeded after 7.0289228 seconds., DetailsLevel: INFO
+2026-03-26T18:00:44.2643746Z Site started.
+2026-03-26T18:00:44.2645297Z State: Started, Action: None, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/26/2026 18:00:44 (UTC), DetailsLevel: INFO
+2026-03-26T18:00:44.2958403Z Site is running with patch version NODE 24.13.0
+2026-03-26T18:16:45.8550923Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-26T18:16:46.3108361Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-03-26T18:16:46.3109800Z Container start method called.
+2026-03-26T18:16:46.3110481Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.0.6:13209/appsvc/node:24-lts_20260115.4.tuxprod for neuroar., DetailsLevel: INFO
+2026-03-26T18:16:46.3112256Z Establishing network.
+2026-03-26T18:16:46.3165600Z Pulling image: appsvc/node:24-lts_20260115.4.tuxprod.
+2026-03-26T18:16:46.5894697Z Image appsvc/node:24-lts_20260115.4.tuxprod is pulled from registry 10.1.0.6:13209
+2026-03-26T18:16:46.5896507Z Container is starting.
+2026-03-26T18:16:46.5897382Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for neuroar., DetailsLevel: INFO
+2026-03-26T18:16:46.5898618Z Establishing user namespace if not established already.
+2026-03-26T18:16:46.5899717Z Establishing network if not established already.
+2026-03-26T18:16:46.5901155Z Mounting volumes.
+2026-03-26T18:16:46.5902799Z Nested mountpoint 
+2026-03-26T18:16:46.5926166Z Nested mountpoint volatile/logs
+2026-03-26T18:16:46.5952192Z Nested mountpoint 
+2026-03-26T18:16:46.5980146Z Nested mountpoint 
+2026-03-26T18:16:46.6007256Z Nested mountpoint 
+2026-03-26T18:16:46.6801744Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for neuroar. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-26T18:16:46.6803162Z Creating container.
+2026-03-26T18:16:46.6804403Z Creating pipes for streaming container io.
+2026-03-26T18:16:46.6805670Z Creating stdout named pipe at /podr/container/pipe/fffb3fee3f63_neuroar/stdout_e38b0cc8211a44c6af5ab03273255426.
+2026-03-26T18:16:46.6807873Z Successfully created stdout named pipe at: /podr/container/pipe/fffb3fee3f63_neuroar/stdout_e38b0cc8211a44c6af5ab03273255426.
+2026-03-26T18:16:46.6809101Z Opening named pipe /podr/container/pipe/fffb3fee3f63_neuroar/stdout_e38b0cc8211a44c6af5ab03273255426 for reading in non-blocking mode.
+2026-03-26T18:16:46.6810499Z Successfully opened named pipe: /podr/container/pipe/fffb3fee3f63_neuroar/stdout_e38b0cc8211a44c6af5ab03273255426.
+2026-03-26T18:16:46.6811576Z Successfully removed non-blocking flag from /podr/container/pipe/fffb3fee3f63_neuroar/stdout_e38b0cc8211a44c6af5ab03273255426.
+2026-03-26T18:16:46.6888040Z Creating stderr named pipe at /podr/container/pipe/fffb3fee3f63_neuroar/stderr_0ba29aaa11324971ab2149e8643ec6d1.
+2026-03-26T18:16:46.6896284Z Successfully created stderr named pipe at: /podr/container/pipe/fffb3fee3f63_neuroar/stderr_0ba29aaa11324971ab2149e8643ec6d1.
+2026-03-26T18:16:46.6897435Z Opening named pipe /podr/container/pipe/fffb3fee3f63_neuroar/stderr_0ba29aaa11324971ab2149e8643ec6d1 for reading in non-blocking mode.
+2026-03-26T18:16:46.6898697Z Successfully opened named pipe: /podr/container/pipe/fffb3fee3f63_neuroar/stderr_0ba29aaa11324971ab2149e8643ec6d1.
+2026-03-26T18:16:46.6899656Z Successfully removed non-blocking flag from /podr/container/pipe/fffb3fee3f63_neuroar/stderr_0ba29aaa11324971ab2149e8643ec6d1.
+2026-03-26T18:16:46.6901144Z Creating container with image: appsvc/node:24-lts_20260115.4.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:24-lts_20260115.4.tuxprod
+2026-03-26T18:16:47.4865488Z Starting container: fffb3fee3f63_neuroar.
+2026-03-26T18:16:47.5080988Z Starting watchers and probes.
+2026-03-26T18:16:47.5083441Z Starting metrics collection.
+2026-03-26T18:16:47.5085148Z Container is running.
+2026-03-26T18:16:47.5085874Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:16:47.5620736Z Container start method finished after 1250 ms.
+2026-03-26T18:16:47.5622662Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:16:47.5622909Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-26T18:16:56.6006300Z Container has finished running with exit code: 254.
+2026-03-26T18:16:56.6038381Z Container is terminating. Grace period: 5 seconds.
+2026-03-26T18:16:56.6086998Z Stop and delete container. Retry count = 0
+2026-03-26T18:16:56.6101234Z Stopping container: fffb3fee3f63_neuroar.
+2026-03-26T18:16:56.6334719Z Deleting container: fffb3fee3f63_neuroar. Retry count = 0
+2026-03-26T18:16:56.7047617Z Container spec TerminationMessagePolicy  path 
+2026-03-26T18:16:56.7066648Z Container is terminated. Total time elapsed: 101 ms.
+2026-03-26T18:16:56.7068787Z Site container: neuroar terminated during site startup.
+2026-03-26T18:16:56.7079486Z State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:16:56.7170391Z Site startup probe failed after 9.1510378 seconds.
+2026-03-26T18:16:56.7768460Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:16:56.7801654Z Failed to start site. Revert by stopping site.
+2026-03-26T18:16:56.7847742Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:16:56.7887301Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:16:56.7895834Z Site: neuroar stopped.
+2026-03-26T18:17:16.9997292Z State: Stopping, Action: StoppingSite, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/26/2026 18:00:44 (UTC), DetailsLevel: INFO
+2026-03-26T18:17:17.0000251Z State: Stopping, Action: StoppingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site started at 03/26/2026 18:00:44 (UTC), DetailsLevel: INFO
+2026-03-26T18:17:17.0001776Z Container is terminating. Grace period: 5 seconds.
+2026-03-26T18:17:17.0023707Z Stop and delete container. Retry count = 0
+2026-03-26T18:17:17.0024813Z Stopping container: b7ac3d7bfd91_neuroar.
+2026-03-26T18:17:22.0416171Z Deleting container: b7ac3d7bfd91_neuroar. Retry count = 0
+2026-03-26T18:17:22.1025850Z Container spec TerminationMessagePolicy  path 
+2026-03-26T18:17:22.1027797Z Container is terminated. Total time elapsed: 5102 ms.
+2026-03-26T18:17:22.1029332Z Site: neuroar stopped.
+2026-03-26T18:16:56.7972734Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:16:56.9074645Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:16:56.9731088Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:16:56 (UTC), DetailsLevel: ERR
+2026-03-26T18:16:56.9792534Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:16:56 (UTC), DetailsLevel: ERR
+2026-03-26T18:17:22.2630297Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:16:56 (UTC), DetailsLevel: ERR
+2026-03-26T18:17:22.5741392Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:16:56 (UTC), DetailsLevel: ERR
+2026-03-26T18:17:22.5742721Z Container start method called.
+2026-03-26T18:17:22.5743244Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.6:13209/appsvc/node:24-lts_20260115.4.tuxprod for neuroar., DetailsLevel: INFO
+2026-03-26T18:17:22.5744445Z Establishing network.
+2026-03-26T18:17:22.5746082Z Pulling image: appsvc/node:24-lts_20260115.4.tuxprod.
+2026-03-26T18:17:22.7373770Z Container is starting.
+2026-03-26T18:17:22.7374639Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for neuroar., DetailsLevel: INFO
+2026-03-26T18:17:22.7375953Z Establishing user namespace if not established already.
+2026-03-26T18:17:22.7377273Z Establishing network if not established already.
+2026-03-26T18:17:22.7378760Z Mounting volumes.
+2026-03-26T18:17:22.7381348Z Nested mountpoint 
+2026-03-26T18:17:22.7418859Z Nested mountpoint volatile/logs
+2026-03-26T18:17:22.7457515Z Nested mountpoint 
+2026-03-26T18:17:22.7466605Z Nested mountpoint 
+2026-03-26T18:17:22.7479068Z Nested mountpoint 
+2026-03-26T18:17:22.8037057Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for neuroar. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-26T18:17:22.8041265Z Creating container.
+2026-03-26T18:17:22.8044399Z Creating pipes for streaming container io.
+2026-03-26T18:17:22.8047786Z Creating stdout named pipe at /podr/container/pipe/da6f4351a07b_neuroar/stdout_8ed56194c90e417f89113d5a3a3ac728.
+2026-03-26T18:17:22.8052320Z Successfully created stdout named pipe at: /podr/container/pipe/da6f4351a07b_neuroar/stdout_8ed56194c90e417f89113d5a3a3ac728.
+2026-03-26T18:17:22.8054739Z Opening named pipe /podr/container/pipe/da6f4351a07b_neuroar/stdout_8ed56194c90e417f89113d5a3a3ac728 for reading in non-blocking mode.
+2026-03-26T18:17:22.8058553Z Successfully opened named pipe: /podr/container/pipe/da6f4351a07b_neuroar/stdout_8ed56194c90e417f89113d5a3a3ac728.
+2026-03-26T18:17:22.8060843Z Successfully removed non-blocking flag from /podr/container/pipe/da6f4351a07b_neuroar/stdout_8ed56194c90e417f89113d5a3a3ac728.
+2026-03-26T18:17:22.8064695Z Creating stderr named pipe at /podr/container/pipe/da6f4351a07b_neuroar/stderr_d9ebca42c3b74c22a97976f148de7b91.
+2026-03-26T18:17:22.8067666Z Successfully created stderr named pipe at: /podr/container/pipe/da6f4351a07b_neuroar/stderr_d9ebca42c3b74c22a97976f148de7b91.
+2026-03-26T18:17:22.8069471Z Opening named pipe /podr/container/pipe/da6f4351a07b_neuroar/stderr_d9ebca42c3b74c22a97976f148de7b91 for reading in non-blocking mode.
+2026-03-26T18:17:22.8072415Z Successfully opened named pipe: /podr/container/pipe/da6f4351a07b_neuroar/stderr_d9ebca42c3b74c22a97976f148de7b91.
+2026-03-26T18:17:22.8075749Z Successfully removed non-blocking flag from /podr/container/pipe/da6f4351a07b_neuroar/stderr_d9ebca42c3b74c22a97976f148de7b91.
+2026-03-26T18:17:22.8080638Z Creating container with image: appsvc/node:24-lts_20260115.4.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:24-lts_20260115.4.tuxprod
+2026-03-26T18:17:22.9463238Z Starting container: da6f4351a07b_neuroar.
+2026-03-26T18:17:22.9676591Z Starting watchers and probes.
+2026-03-26T18:17:22.9679085Z Starting metrics collection.
+2026-03-26T18:17:22.9681014Z Container is running.
+2026-03-26T18:17:22.9681793Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:17:22.9948669Z Container start method finished after 420 ms.
+2026-03-26T18:17:22.9951777Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:17:22.9952052Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-26T18:17:31.1559283Z Container has finished running with exit code: 254.
+2026-03-26T18:17:31.1563665Z Container is terminating. Grace period: 5 seconds.
+2026-03-26T18:17:31.1578851Z Stop and delete container. Retry count = 0
+2026-03-26T18:17:31.1586437Z Stopping container: da6f4351a07b_neuroar.
+2026-03-26T18:17:31.1864014Z Deleting container: da6f4351a07b_neuroar. Retry count = 0
+2026-03-26T18:17:31.2667823Z Container spec TerminationMessagePolicy  path 
+2026-03-26T18:17:31.2675116Z Container is terminated. Total time elapsed: 110 ms.
+2026-03-26T18:17:31.2678548Z Site container: neuroar terminated during site startup.
+2026-03-26T18:17:31.2680224Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:16:56, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:17:31.2715312Z Site startup probe failed after 8.2738668 seconds.
+2026-03-26T18:17:31.3327727Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:17:31.3339332Z Failed to start site. Revert by stopping site.
+2026-03-26T18:17:31.3351678Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:17:31.3364747Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:17:31.3364923Z Site: neuroar stopped.
+2026-03-26T18:22:23.4318005Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:17:31 (UTC), DetailsLevel: WARN
+2026-03-26T18:22:23.7396710Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:17:31 (UTC), DetailsLevel: WARN
+2026-03-26T18:22:23.7398012Z Container start method called.
+2026-03-26T18:22:23.7398503Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/node:20-lts_20260115.4.tuxprod for neuroar., DetailsLevel: INFO
+2026-03-26T18:22:23.7399764Z Establishing network.
+2026-03-26T18:22:23.7401037Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-03-26T18:22:23.9273349Z Image appsvc/node:20-lts_20260115.4.tuxprod is pulled from registry 10.1.0.5:13209
+2026-03-26T18:22:23.9276422Z Container is starting.
+2026-03-26T18:22:23.9278144Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for neuroar., DetailsLevel: INFO
+2026-03-26T18:22:23.9282565Z Establishing user namespace if not established already.
+2026-03-26T18:22:23.9284934Z Establishing network if not established already.
+2026-03-26T18:22:23.9297836Z Mounting volumes.
+2026-03-26T18:22:23.9302326Z Nested mountpoint 
+2026-03-26T18:22:23.9321615Z Nested mountpoint volatile/logs
+2026-03-26T18:22:23.9362757Z Nested mountpoint 
+2026-03-26T18:22:23.9393008Z Nested mountpoint 
+2026-03-26T18:22:23.9400537Z Nested mountpoint 
+2026-03-26T18:22:23.9994647Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for neuroar. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-26T18:22:23.9996014Z Creating container.
+2026-03-26T18:22:23.9997060Z Creating pipes for streaming container io.
+2026-03-26T18:22:23.9998286Z Creating stdout named pipe at /podr/container/pipe/06adac7ead81_neuroar/stdout_dbdbe815858e4766b70fc27c47eee11d.
+2026-03-26T18:22:24.0013625Z Successfully created stdout named pipe at: /podr/container/pipe/06adac7ead81_neuroar/stdout_dbdbe815858e4766b70fc27c47eee11d.
+2026-03-26T18:22:24.0015173Z Opening named pipe /podr/container/pipe/06adac7ead81_neuroar/stdout_dbdbe815858e4766b70fc27c47eee11d for reading in non-blocking mode.
+2026-03-26T18:22:24.0016848Z Successfully opened named pipe: /podr/container/pipe/06adac7ead81_neuroar/stdout_dbdbe815858e4766b70fc27c47eee11d.
+2026-03-26T18:22:24.0018152Z Successfully removed non-blocking flag from /podr/container/pipe/06adac7ead81_neuroar/stdout_dbdbe815858e4766b70fc27c47eee11d.
+2026-03-26T18:22:24.0020498Z Creating stderr named pipe at /podr/container/pipe/06adac7ead81_neuroar/stderr_2bacade695484bcf829975cc770a4935.
+2026-03-26T18:22:24.0022402Z Successfully created stderr named pipe at: /podr/container/pipe/06adac7ead81_neuroar/stderr_2bacade695484bcf829975cc770a4935.
+2026-03-26T18:22:24.0023509Z Opening named pipe /podr/container/pipe/06adac7ead81_neuroar/stderr_2bacade695484bcf829975cc770a4935 for reading in non-blocking mode.
+2026-03-26T18:22:24.0024808Z Successfully opened named pipe: /podr/container/pipe/06adac7ead81_neuroar/stderr_2bacade695484bcf829975cc770a4935.
+2026-03-26T18:22:24.0026136Z Successfully removed non-blocking flag from /podr/container/pipe/06adac7ead81_neuroar/stderr_2bacade695484bcf829975cc770a4935.
+2026-03-26T18:22:24.0038818Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-03-26T18:22:24.1611086Z Starting container: 06adac7ead81_neuroar.
+2026-03-26T18:22:24.1756194Z Starting watchers and probes.
+2026-03-26T18:22:24.1759208Z Starting metrics collection.
+2026-03-26T18:22:24.1761327Z Container is running.
+2026-03-26T18:22:24.1762065Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:22:24.1895542Z Container start method finished after 449 ms.
+2026-03-26T18:22:24.1907621Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:22:24.1908720Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-26T18:22:33.0959151Z Container has finished running with exit code: 254.
+2026-03-26T18:22:33.0960398Z Container is terminating. Grace period: 5 seconds.
+2026-03-26T18:22:33.0967369Z Stop and delete container. Retry count = 0
+2026-03-26T18:22:33.0970794Z Stopping container: 06adac7ead81_neuroar.
+2026-03-26T18:22:33.1095900Z Deleting container: 06adac7ead81_neuroar. Retry count = 0
+2026-03-26T18:22:33.1769734Z Container spec TerminationMessagePolicy  path 
+2026-03-26T18:22:33.1771407Z Container is terminated. Total time elapsed: 80 ms.
+2026-03-26T18:22:33.1772378Z Site container: neuroar terminated during site startup.
+2026-03-26T18:22:33.1773236Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:17:31, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:22:33.1782401Z Site startup probe failed after 8.9867838 seconds.
+2026-03-26T18:22:33.2405048Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:22:33.2417435Z Failed to start site. Revert by stopping site.
+2026-03-26T18:22:33.2418258Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:22:33.2420313Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:22:33.2420458Z Site: neuroar stopped.
+2026-03-26T18:22:33.2467736Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:22:33.3260689Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:22:33.3851240Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:22:33 (UTC), DetailsLevel: ERR
+2026-03-26T18:22:33.4058667Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:22:33 (UTC), DetailsLevel: ERR
+2026-03-26T18:25:17.1334453Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:22:33 (UTC), DetailsLevel: ERR
+2026-03-26T18:25:17.4114674Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:22:33 (UTC), DetailsLevel: ERR
+2026-03-26T18:25:17.4121281Z Container start method called.
+2026-03-26T18:25:17.4125673Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/node:20-lts_20260115.4.tuxprod for neuroar., DetailsLevel: INFO
+2026-03-26T18:25:17.4126923Z Establishing network.
+2026-03-26T18:25:17.4128123Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-03-26T18:25:17.5845090Z Container is starting.
+2026-03-26T18:25:17.5845771Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for neuroar., DetailsLevel: INFO
+2026-03-26T18:25:17.5846848Z Establishing user namespace if not established already.
+2026-03-26T18:25:17.5848061Z Establishing network if not established already.
+2026-03-26T18:25:17.5849241Z Mounting volumes.
+2026-03-26T18:25:17.5850795Z Nested mountpoint 
+2026-03-26T18:25:17.5869194Z Nested mountpoint volatile/logs
+2026-03-26T18:25:17.5896721Z Nested mountpoint 
+2026-03-26T18:25:17.5936952Z Nested mountpoint 
+2026-03-26T18:25:17.5978670Z Nested mountpoint 
+2026-03-26T18:25:17.6518014Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for neuroar. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-26T18:25:17.6519570Z Creating container.
+2026-03-26T18:25:17.6521570Z Creating pipes for streaming container io.
+2026-03-26T18:25:17.6522881Z Creating stdout named pipe at /podr/container/pipe/6c1deede5038_neuroar/stdout_7005e218e1114728808ff5d25fc7af6b.
+2026-03-26T18:25:17.6525909Z Successfully created stdout named pipe at: /podr/container/pipe/6c1deede5038_neuroar/stdout_7005e218e1114728808ff5d25fc7af6b.
+2026-03-26T18:25:17.6527199Z Opening named pipe /podr/container/pipe/6c1deede5038_neuroar/stdout_7005e218e1114728808ff5d25fc7af6b for reading in non-blocking mode.
+2026-03-26T18:25:17.6528672Z Successfully opened named pipe: /podr/container/pipe/6c1deede5038_neuroar/stdout_7005e218e1114728808ff5d25fc7af6b.
+2026-03-26T18:25:17.6529915Z Successfully removed non-blocking flag from /podr/container/pipe/6c1deede5038_neuroar/stdout_7005e218e1114728808ff5d25fc7af6b.
+2026-03-26T18:25:17.6531643Z Creating stderr named pipe at /podr/container/pipe/6c1deede5038_neuroar/stderr_db193d08a15a4119ba0fbd4f30396778.
+2026-03-26T18:25:17.6533549Z Successfully created stderr named pipe at: /podr/container/pipe/6c1deede5038_neuroar/stderr_db193d08a15a4119ba0fbd4f30396778.
+2026-03-26T18:25:17.6535080Z Opening named pipe /podr/container/pipe/6c1deede5038_neuroar/stderr_db193d08a15a4119ba0fbd4f30396778 for reading in non-blocking mode.
+2026-03-26T18:25:17.6536678Z Successfully opened named pipe: /podr/container/pipe/6c1deede5038_neuroar/stderr_db193d08a15a4119ba0fbd4f30396778.
+2026-03-26T18:25:17.6537840Z Successfully removed non-blocking flag from /podr/container/pipe/6c1deede5038_neuroar/stderr_db193d08a15a4119ba0fbd4f30396778.
+2026-03-26T18:25:17.6549578Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-03-26T18:25:17.8445494Z Starting container: 6c1deede5038_neuroar.
+2026-03-26T18:25:17.8602720Z Starting watchers and probes.
+2026-03-26T18:25:17.8607916Z Starting metrics collection.
+2026-03-26T18:25:17.8618021Z Container is running.
+2026-03-26T18:25:17.8618695Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:25:17.8841068Z Container start method finished after 471 ms.
+2026-03-26T18:25:17.8844892Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:25:17.8845162Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-26T18:25:24.5224278Z Container has finished running with exit code: 254.
+2026-03-26T18:25:24.5226799Z Container is terminating. Grace period: 5 seconds.
+2026-03-26T18:25:24.5230487Z Stop and delete container. Retry count = 0
+2026-03-26T18:25:24.5231810Z Stopping container: 6c1deede5038_neuroar.
+2026-03-26T18:25:24.5408234Z Deleting container: 6c1deede5038_neuroar. Retry count = 0
+2026-03-26T18:25:24.6904707Z Container spec TerminationMessagePolicy  path 
+2026-03-26T18:25:24.6906206Z Container is terminated. Total time elapsed: 167 ms.
+2026-03-26T18:25:24.6907210Z Site container: neuroar terminated during site startup.
+2026-03-26T18:25:24.6907866Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:22:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:25:24.6929126Z Site startup probe failed after 6.8078138 seconds.
+2026-03-26T18:25:24.7417521Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:25:24.7444191Z Failed to start site. Revert by stopping site.
+2026-03-26T18:25:24.7445021Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:25:24.7447189Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:25:24.7447323Z Site: neuroar stopped.
+2026-03-26T18:26:10.0003720Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:25:24 (UTC), DetailsLevel: WARN
+2026-03-26T18:26:10.2510785Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:25:24 (UTC), DetailsLevel: WARN
+2026-03-26T18:26:10.2512215Z Container start method called.
+2026-03-26T18:26:10.2512661Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.6:13209/appsvc/node:20-lts_20260115.4.tuxprod for neuroar., DetailsLevel: INFO
+2026-03-26T18:26:10.2514188Z Establishing network.
+2026-03-26T18:26:10.2515603Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-03-26T18:26:10.4120252Z Container is starting.
+2026-03-26T18:26:10.4121085Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for neuroar., DetailsLevel: INFO
+2026-03-26T18:26:10.4122422Z Establishing user namespace if not established already.
+2026-03-26T18:26:10.4123686Z Establishing network if not established already.
+2026-03-26T18:26:10.4125208Z Mounting volumes.
+2026-03-26T18:26:10.4127188Z Nested mountpoint 
+2026-03-26T18:26:10.4147133Z Nested mountpoint volatile/logs
+2026-03-26T18:26:10.4165829Z Nested mountpoint 
+2026-03-26T18:26:10.4187282Z Nested mountpoint 
+2026-03-26T18:26:10.4221866Z Nested mountpoint 
+2026-03-26T18:26:10.4744614Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for neuroar. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-26T18:26:10.4746015Z Creating container.
+2026-03-26T18:26:10.4766121Z Creating pipes for streaming container io.
+2026-03-26T18:26:10.4772173Z Creating stdout named pipe at /podr/container/pipe/e8fa1f147cca_neuroar/stdout_fa24134e406f4d1f802b64856701c6e8.
+2026-03-26T18:26:10.4777068Z Successfully created stdout named pipe at: /podr/container/pipe/e8fa1f147cca_neuroar/stdout_fa24134e406f4d1f802b64856701c6e8.
+2026-03-26T18:26:10.4778597Z Opening named pipe /podr/container/pipe/e8fa1f147cca_neuroar/stdout_fa24134e406f4d1f802b64856701c6e8 for reading in non-blocking mode.
+2026-03-26T18:26:10.4786468Z Successfully opened named pipe: /podr/container/pipe/e8fa1f147cca_neuroar/stdout_fa24134e406f4d1f802b64856701c6e8.
+2026-03-26T18:26:10.4790166Z Successfully removed non-blocking flag from /podr/container/pipe/e8fa1f147cca_neuroar/stdout_fa24134e406f4d1f802b64856701c6e8.
+2026-03-26T18:26:10.4801793Z Creating stderr named pipe at /podr/container/pipe/e8fa1f147cca_neuroar/stderr_b79b983faf2342c68d05e3a1f34c06ba.
+2026-03-26T18:26:10.4809470Z Successfully created stderr named pipe at: /podr/container/pipe/e8fa1f147cca_neuroar/stderr_b79b983faf2342c68d05e3a1f34c06ba.
+2026-03-26T18:26:10.4815097Z Opening named pipe /podr/container/pipe/e8fa1f147cca_neuroar/stderr_b79b983faf2342c68d05e3a1f34c06ba for reading in non-blocking mode.
+2026-03-26T18:26:10.4818470Z Successfully opened named pipe: /podr/container/pipe/e8fa1f147cca_neuroar/stderr_b79b983faf2342c68d05e3a1f34c06ba.
+2026-03-26T18:26:10.4820894Z Successfully removed non-blocking flag from /podr/container/pipe/e8fa1f147cca_neuroar/stderr_b79b983faf2342c68d05e3a1f34c06ba.
+2026-03-26T18:26:10.4822902Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-03-26T18:26:10.6732254Z Starting container: e8fa1f147cca_neuroar.
+2026-03-26T18:26:10.6872850Z Starting watchers and probes.
+2026-03-26T18:26:10.6878888Z Starting metrics collection.
+2026-03-26T18:26:10.6900566Z Container is running.
+2026-03-26T18:26:10.6901299Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:26:10.7036990Z Container start method finished after 451 ms.
+2026-03-26T18:26:10.7041367Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:26:10.7041660Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-26T18:26:18.3797107Z Container has finished running with exit code: 254.
+2026-03-26T18:26:18.4257340Z Container is terminating. Grace period: 5 seconds.
+2026-03-26T18:26:18.4261543Z Stop and delete container. Retry count = 0
+2026-03-26T18:26:18.4262987Z Stopping container: e8fa1f147cca_neuroar.
+2026-03-26T18:26:18.4392499Z Deleting container: e8fa1f147cca_neuroar. Retry count = 0
+2026-03-26T18:26:18.9490697Z Container spec TerminationMessagePolicy  path 
+2026-03-26T18:26:18.9492216Z Container is terminated. Total time elapsed: 523 ms.
+2026-03-26T18:26:18.9492969Z Site container: neuroar terminated during site startup.
+2026-03-26T18:26:18.9493686Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:25:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:18.9501812Z Site startup probe failed after 8.2456584 seconds.
+2026-03-26T18:26:19.0015345Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:19.0031403Z Failed to start site. Revert by stopping site.
+2026-03-26T18:26:19.0032229Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:19.0034916Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:19.0035065Z Site: neuroar stopped.
+2026-03-26T18:26:19.0048023Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:19.0947218Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:19.2893268Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:26:19 (UTC), DetailsLevel: ERR
+2026-03-26T18:26:19.3278715Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:26:19 (UTC), DetailsLevel: ERR
+2026-03-26T18:26:50.3559251Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:26:19 (UTC), DetailsLevel: ERR
+2026-03-26T18:26:50.6080701Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 03/26/2026 18:26:19 (UTC), DetailsLevel: ERR
+2026-03-26T18:26:50.6081999Z Container start method called.
+2026-03-26T18:26:50.6082475Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.6:13209/appsvc/node:20-lts_20260115.4.tuxprod for neuroar., DetailsLevel: INFO
+2026-03-26T18:26:50.6083577Z Establishing network.
+2026-03-26T18:26:50.6084798Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-03-26T18:26:50.7849340Z Container is starting.
+2026-03-26T18:26:50.7850438Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for neuroar., DetailsLevel: INFO
+2026-03-26T18:26:50.7852688Z Establishing user namespace if not established already.
+2026-03-26T18:26:50.7854295Z Establishing network if not established already.
+2026-03-26T18:26:50.7855763Z Mounting volumes.
+2026-03-26T18:26:50.7857955Z Nested mountpoint 
+2026-03-26T18:26:50.7870164Z Nested mountpoint volatile/logs
+2026-03-26T18:26:50.7896831Z Nested mountpoint 
+2026-03-26T18:26:50.7904093Z Nested mountpoint 
+2026-03-26T18:26:50.7927868Z Nested mountpoint 
+2026-03-26T18:26:50.8403006Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for neuroar. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-03-26T18:26:50.8404239Z Creating container.
+2026-03-26T18:26:50.8405337Z Creating pipes for streaming container io.
+2026-03-26T18:26:50.8406481Z Creating stdout named pipe at /podr/container/pipe/1de4e39979f5_neuroar/stdout_5007ef6e2dbf4e2aa86f93a72f0f9d92.
+2026-03-26T18:26:50.8409107Z Successfully created stdout named pipe at: /podr/container/pipe/1de4e39979f5_neuroar/stdout_5007ef6e2dbf4e2aa86f93a72f0f9d92.
+2026-03-26T18:26:50.8411991Z Opening named pipe /podr/container/pipe/1de4e39979f5_neuroar/stdout_5007ef6e2dbf4e2aa86f93a72f0f9d92 for reading in non-blocking mode.
+2026-03-26T18:26:50.8414213Z Successfully opened named pipe: /podr/container/pipe/1de4e39979f5_neuroar/stdout_5007ef6e2dbf4e2aa86f93a72f0f9d92.
+2026-03-26T18:26:50.8415856Z Successfully removed non-blocking flag from /podr/container/pipe/1de4e39979f5_neuroar/stdout_5007ef6e2dbf4e2aa86f93a72f0f9d92.
+2026-03-26T18:26:50.8418101Z Creating stderr named pipe at /podr/container/pipe/1de4e39979f5_neuroar/stderr_dd3e84cd80b146a5be0d663c1185b17c.
+2026-03-26T18:26:50.8420217Z Successfully created stderr named pipe at: /podr/container/pipe/1de4e39979f5_neuroar/stderr_dd3e84cd80b146a5be0d663c1185b17c.
+2026-03-26T18:26:50.8421846Z Opening named pipe /podr/container/pipe/1de4e39979f5_neuroar/stderr_dd3e84cd80b146a5be0d663c1185b17c for reading in non-blocking mode.
+2026-03-26T18:26:50.8423581Z Successfully opened named pipe: /podr/container/pipe/1de4e39979f5_neuroar/stderr_dd3e84cd80b146a5be0d663c1185b17c.
+2026-03-26T18:26:50.8424885Z Successfully removed non-blocking flag from /podr/container/pipe/1de4e39979f5_neuroar/stderr_dd3e84cd80b146a5be0d663c1185b17c.
+2026-03-26T18:26:50.8428715Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-03-26T18:26:51.0025758Z Starting container: 1de4e39979f5_neuroar.
+2026-03-26T18:26:51.0193067Z Starting watchers and probes.
+2026-03-26T18:26:51.0195756Z Starting metrics collection.
+2026-03-26T18:26:51.0197792Z Container is running.
+2026-03-26T18:26:51.0198392Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:26:51.0410938Z Container start method finished after 432 ms.
+2026-03-26T18:26:51.0412729Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container neuroar successfully created and is running., DetailsLevel: INFO
+2026-03-26T18:26:51.0413045Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-03-26T18:26:58.0366343Z Container has finished running with exit code: 254.
+2026-03-26T18:26:58.0370146Z Container is terminating. Grace period: 5 seconds.
+2026-03-26T18:26:58.0375168Z Stop and delete container. Retry count = 0
+2026-03-26T18:26:58.0376816Z Stopping container: 1de4e39979f5_neuroar.
+2026-03-26T18:26:58.0637707Z Deleting container: 1de4e39979f5_neuroar. Retry count = 0
+2026-03-26T18:26:58.1977036Z Container spec TerminationMessagePolicy  path 
+2026-03-26T18:26:58.1985041Z Container is terminated. Total time elapsed: 160 ms.
+2026-03-26T18:26:58.1986827Z Site container: neuroar terminated during site startup.
+2026-03-26T18:26:58.1987775Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:18, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:58.2004771Z Site startup probe failed after 7.1556515 seconds.
+2026-03-26T18:26:58.2461243Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:58, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:58.2517221Z Failed to start site. Revert by stopping site.
+2026-03-26T18:26:58.2519632Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:58, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:58.2524851Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 03/26/2026 18:26:58, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: neuroar terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-03-26T18:26:58.2524997Z Site: neuroar stopped.
